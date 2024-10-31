@@ -11,3 +11,12 @@ foreach(string province in provinces)
     Console.WriteLine(province);
 }
 //end of the lesson
+
+//Second lesson - method that prints lyics of a song 
+static void Lyrics()
+{
+    Console.WriteLine("Areece Paradise");
+    Console.WriteLine("bluh bluh bluh........");
+}
+
+Lyrics();
