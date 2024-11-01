@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using SimpleGit;
 using System;
 
 Console.WriteLine("Hello, World!");
@@ -20,3 +21,10 @@ static void Lyrics()
 }
 
 Lyrics();
+
+Student diplomaStudent = new Student("Alice", "20230101", 20, "Diploma in IT");
+Student bcomStudent = new Student("Bob", "20230102", 21, "Bachelor of Commerce");
+Student degreeStudent = new Student("Carol", "20230103", 22, "Bachelor of Science");
+Student mastersStudent = new Student("Dave", "20230104", 25, "Master of Engineering");
+
+diplomaStudent.DisplayInformation();
